@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.taskText {
+  width: 400px;
+}
+
+body {
+  background-color: rgb(138, 205, 230);
+  font-family: 'Questrial', sans-serif;
+}
+
+.taskText {
+  width: 100%;
+  margin-bottom: 25px;
+  margin: 0;
+  height: 33px;
+  /*margin-left: 20px;*/
+}
+#todos{
+  font-size: 20px;
+  padding-left: 52px;
+  padding-right: 52px;
+  margin-top: 0px;
+  color: black;
+  transition: 1.5s ease;
+  padding-left: 20px;
+  /*font-family: 'Covered By Your Grace', cursive;*/
+}
+/*.toBeDone{
+  background-color: rgb(226, 254, 113);
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  word-wrap: break-word;
+  transition: 1.5s ease;
+  height: 500px;
+}*/
+.toBeDone:hover{
+}
+
+.todoItemText{
+  display: inline-block;
+  margin-left: 20px;
+}
+.presentation{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inputTextArea{
+  margin-top: 20px;
+}
+.buttonStyling{
+  margin-top: 20px;
+  height: 33px;
+  background-color: rgb(159, 242, 142);
+  color: white;
+}
+.mainTitle{
+  text-align: center;
+  font-size: 33px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
